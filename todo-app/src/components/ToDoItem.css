@@ -1,0 +1,43 @@
+.todo-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .completed {
+    text-decoration: line-through;
+    color: gray;
+  }
+  
+  .buttons {
+    display: flex;
+    gap: 5px;
+  }
+  
+  .edit-btn, .complete-btn, .delete-btn, .save-btn {
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  .edit-btn {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .complete-btn {
+    background-color: #ffc107;
+    color: black;
+  }
+  
+  .delete-btn {
+    background-color: #dc3545;
+    color: white;
+  }
+  
+  .save-btn {
+    background-color: #28a745;
+    color: white;
+  }
+  
