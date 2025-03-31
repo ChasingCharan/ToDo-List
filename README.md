@@ -22,6 +22,20 @@ This project allows users to **add, edit, complete, and delete tasks** efficient
 
 ## ⚙️ Installation  
 
-### **1️⃣ Clone the Repository**  
+### **1️ Clone the Repository**  
 ```sh
 https://github.com/ChasingCharan/ToDo-List.git
+
+```
+### **2 Navigate to the Project Folder**  
+```sh
+cd todo-app
+```
+### **3 Install Dependencies**  
+```sh
+npm install
+```
+### **4 Run the Application**  
+```sh
+npm run dev
+```
